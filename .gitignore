@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config and cache
+*.log
+*.sqlite
+*.db
+
+# Config storage directory
+.local/

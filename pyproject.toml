@@ -1,0 +1,20 @@
+[project]
+name = "linux-command-assistant"
+version = "0.1.0"
+description = "LangChain-powered CLI assistant for Linux commands"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+dependencies = [
+    "langchain",
+    "openai",
+    "click",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.72",
+    "langchain-openai>=0.3.28",
+]
+
+[project.scripts]
+linux-help = "linux_command_assistant.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
