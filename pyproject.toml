@@ -2,7 +2,7 @@
 name = "linux-command-assistant"
 version = "0.1.0"
 description = "LangChain-powered CLI assistant for Linux commands"
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Mark C Allen", email = "mark@markcallen.com" }]
 dependencies = [
     "langchain",
     "openai",
