@@ -20,3 +20,25 @@ Output:
 ```
 df -h
 ```
+
+## Build
+
+```
+uv build
+```
+
+## Install
+
+Use pipx
+
+```
+pipx install dist/linux_command_assistant-0.1.0-py3-none-any.whl
+```
+
+## Run
+
+Create an alias for `ask`
+
+```
+alias ask='function _ask() { ~/.local/bin/linux-help ask "$*"; }; _ask'
+```
